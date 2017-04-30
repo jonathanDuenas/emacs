@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Factura</title>
+    <link href="css/style2.css" rel="stylesheet"/>
+
+    <script src="js/dict//jspdf.min.js"></script>
+    <script src="js/dict/autoprint.js"></script>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container">
+	<div class="centered-content">
+	  <form method="" id="formp" action="" name="formp">
+	    <br />
+	    <span style="text-align:center;font-size:16px;font-weight:bold;">CELLFOOD DE CENTROAM&Eacute;RICA, S.A. DE C.V. <br/>FACTURA DE CONSUMIDOR FINAL</span>
+	    <br />
+	    <table id="info">
+	      <col width="54%">
+	      <col width="26%">
+	      <col width="20%">
+	      <tr>
+		<td></td>
+		<td colspan="2"><label for="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&uacute;mero::</label><span class="sInput"><input type="text" class="info" name="numero" value=""/> </span> </td>
+	      </tr>
+	      <tr>
+		<td colspan="3"><label for="">Cliente:</label><span class="sInput"><input type="text" class="info" name="cliente" value="" /></span></td>
+	      </tr>
+	      <tr>
+		<td><label for="">Direcci&oacute;n:</label><span class="sInput"><input type="text" class="info" name="direccion" value="" /></span>
+		</td>
+		<td><label for="">Fecha:</label>
+		<td><span class="sInput"><input type="text" class="info" name="fecha" value=""/> </span> </td></td>
+	      </tr>
+	      <tr>
+		<td><label for="">Departamento:</label><span class="sInput"> <input type="text" class="info" name="deparamento" value="" /></span></td>
+		<td><label for="">NIT o DUI:</label>
+		<td><span class="sInput"><input type="text" class="info" name="nit" value="" /></span></td></td>
+	      </tr>
+	      <tr>
+		<td><label for="">Venta a Cuenta de:</label><span class="sInput"><input name="cuenta" type="text" class="info" value=""/></span></td>
+		<td><label for="">Condiciones:</label>
+		<td><span class="sInput"><input type="text" class="info" name="condicion" value="" /></span></td></td>
+	      </tr>
+	    </table>
+	    <table id="cant" cellspacing="0" cellpading="0">
+	      <col width="10%">
+	      <col width="54%">
+	      <col width="9%">
+	      <col width="7%">
+	      <col width="7%">
+	      <col width="13%">
+	      <tr style="text-align:center;">
+		<td>CANT.</td>
+		<td>DESCRIPCI&Oacute;N</td>
+		<td style="font-size:9px;">PRECIO<br />UNITARIO</td>
+		<td style="font-size:8px;">VTAS NO<br />SUJETAS</td>
+		<td style="font-size:9px;">VENTAS<br />EXENTAS</td>
+		<td style="font-size:9px;">VENTAS<br/>GRAVADAS</td>
+	      </tr>
+	    </table>
+	  </form>
+	  
+	</div>
+      </div>
+    </div>
+    <div id="topcorner">
+      <div id="menu">
+	<div class="opt"><a href="../index.html">Inicio</a></div>
+	<div class="opt"><a href="index.html">Credito Fiscal</a></div>
+	<div class="opt"><a href="remision.html" style="font-size: 25px;">Nota Remision</a></div>
+      </div>
+    </div>
+    <div id="topright">
+    </div>
+    <div id="Test"></div>
+    <script src="js/html/NumeroLetra.js"></script>
+    <script src="js/html/tablesFact.js"></script>
+    <script src="js/events/eventosFact.js"></script>    
+    <script src="js/objects/pdfFact.js"></script>
+  </body>
+</html>

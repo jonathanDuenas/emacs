@@ -1,0 +1,128 @@
+cat studio
+ls -al
+ls
+cat assert 
+cd ..
+cd java-mode/
+ls
+cd
+cd .emacs.d/snippets/yas/
+cd java-mode/
+ls
+cat testClass
+cat file_class 
+cat define\ test\ method 
+ls
+cat new 
+cat javadoc
+cat cls 
+cat toString 
+cd ../python-mode/
+ls
+cat function
+htop
+se
+ks
+ls
+cp index.html pages/foo.html
+ls pages/
+cd ..
+ls img/
+mc img/HTML5_Badge_64.png img/html.png
+mv img/HTML5_Badge_64.png img/html.png
+ls img/
+cd pages/
+cp foo.html 1.html
+cd ..
+ls
+cd pages/
+ls
+rm foo.html 
+cp 1.html foo.html
+cp 1.html 2.html
+ls
+cp foo.html 3.html
+ls
+ls
+cp foo.html 4.html
+ls
+cp foo.html 6.html
+ls
+ls
+cd ..
+cd pages/
+ls
+cp foo.html 7.html
+cp foo.html 8.html
+rm 8.html 
+cp 7.html 8.html
+cp foo.html 9.html
+ls ../img/
+ls
+rm *~
+ls
+cp foo.html 10.html
+cp foo.html bio.html
+ls
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp o
+clisp hola.lsp o
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+clisp hola.lsp 
+ls
+cd ..
+ls
+cd js/
+ls
+mkdir events
+mkdir objects
+mkdir dict
+mkdir html
+mv table* html/
+mv jspdf.min.js objects/
+mv eve* eventos.js
+mv eve* events
+mv evento* events
+ls
+ls objects/
+mv objects/jspdf.min.js dict/
+mv pdfCcf.js objects/
+ls
+mv NumeroLetra.js html/
+ls
+mv autoprint.js dict/
+ls
+ls
+cd js
+ls
+rm pdfCcf.js\~ 
+ls
+ls
+cd
+ls
+rm #.emacs#
+ls
+ls
+touch ee
+rm ee
+rm \#.emacs\# 
+ls
+cd VirtualBox\ VMs/
+cd ..
+cd Videos/
+exit
